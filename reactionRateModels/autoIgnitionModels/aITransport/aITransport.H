@@ -61,6 +61,9 @@ class aITransport
         //- Pressure
         const volScalarField& p_;
 
+        //- Temperature
+        const volScalarField& T_;
+
         volScalarField ADT_;
 
         //- ADT data table

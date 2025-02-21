@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/openfoam12/src/**",  
+                "/opt/openfoam12/applications/**",
+                "${FOAM_SRC}/**",
+                "${FOAM_UTILITIES}/**",
+                "${FOAM_SOLVERS}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

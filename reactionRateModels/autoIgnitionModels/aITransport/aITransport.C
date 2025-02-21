@@ -63,6 +63,7 @@ Foam::autoIgnitionModels::aITransport::aITransport
     rho_(combModel_.rho()),
     phi_(mesh_.lookupObject<surfaceScalarField>("phi")),
     p_(mesh_.lookupObject<volScalarField>("p")),
+    T_(mesh_.lookupObject<volScalarField>("T")),
     ADT_
     (
         IOobject
